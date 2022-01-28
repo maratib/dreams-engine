@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+
+@font-face {
+  font-family: "Bely-Display-Regular";
+  src: url("../assets/fonts/Bely-Display-Regular.woff2") format("woff2");
+}
+
+@tailwind utilities;
+
+body {
+  scroll-behavior: smooth !important;
+}
+
+.cool-transition {
+  transition: all 0.4s cubic-bezier(1, 0.25, 0, 0.75) 0s;
+}
+
+.digital-transition-bg {
+  background: linear-gradient(
+      107.42deg,
+      rgba(17, 17, 127, 0) -0.51%,
+      #00002f 100%
+    ),
+    url("/img/solutions/digital-transition-bg.jpeg") center / cover no-repeat
+      fixed;
+}
+
+.data-science-bg {
+  background: linear-gradient(
+      107.42deg,
+      rgba(17, 17, 127, 0) -0.51%,
+      #00002f 100%
+    ),
+    url("/img/solutions/data-science-bg.jpeg") center / cover no-repeat fixed;
+}
+
+.research-bg {
+  background: linear-gradient(
+      107.42deg,
+      rgba(17, 17, 127, 0) -0.51%,
+      #00002f 100%
+    ),
+    url("/img/solutions/research-bg.jpeg") center / cover no-repeat fixed;
+}
+
+.ux-product-bg {
+  background: linear-gradient(
+      107.42deg,
+      rgba(17, 17, 127, 0) -0.51%,
+      #00002f 100%
+    ),
+    url("/img/solutions/ux-product-bg.jpeg") center / cover no-repeat fixed;
+}
+
+.tech-bg {
+  background: linear-gradient(
+      107.42deg,
+      rgba(17, 17, 127, 0) -0.51%,
+      #00002f 100%
+    ),
+    url("/img/solutions/tech-bg.jpeg") center / cover no-repeat fixed;
+}
+
+.seo-bg {
+  background: linear-gradient(
+      107.42deg,
+      rgba(17, 17, 127, 0) -0.51%,
+      #00002f 100%
+    ),
+    url("/img/solutions/seo-bg.jpeg") center / cover no-repeat fixed;
+}
+
+.media-casino-bg {
+  background: linear-gradient(
+      107.42deg,
+      rgba(17, 17, 127, 0) -0.51%,
+      #00002f 100%
+    ),
+    url("/img/solutions/media-consulting-bg.jpeg") center / cover no-repeat
+      fixed;
+}
+
+.promotes-bg {
+  background: linear-gradient(
+      107.42deg,
+      rgba(17, 17, 127, 0) -0.51%,
+      #00002f 100%
+    ),
+    url("/img/solutions/promotes-bg.jpeg") center / cover no-repeat fixed;
+}
+
+.media-strategies-bg {
+  background: linear-gradient(
+      107.42deg,
+      rgba(17, 17, 127, 0) -0.51%,
+      #00002f 100%
+    ),
+    url("/img/solutions/media-strategies-bg.jpeg") center / cover no-repeat
+      fixed;
+}
+
+/* .solutions-container {
+  scroll-snap-type: y mandatory;
+  scroll-snap-stop: always;
+  overflow-y: scroll;
+}
+
+.solution-sections {
+  scroll-snap-align: start;
+} */
+
+.panel {
+  height: 100vh;
+}
